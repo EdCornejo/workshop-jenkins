@@ -142,5 +142,13 @@ pipeline {
 }
 ```
 
+- `git add .`
+- `git commit -m "add tasks"`
+- `git push origin master`
+- `./gradlew docker`
+- `./gradlew dockerRun`
+- Enter in the localhost:8080 and review if the seed-job has SUCCESS status
+- Review pipeline job
+
 # References
 - [$'' strings use ANSI C Quoting](https://www.gnu.org/software/bash/manual/html_node/ANSI_002dC-Quoting.html)
